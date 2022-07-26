@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  /* font-family: 'Inter'; */
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Styles/Fonts/Inter-ExtraBold.woff2') format('woff2'),
+    url('./Styles/Fonts/Inter-ExtraBold.woff') format('woff');
 }
 
 .App-logo {
@@ -32,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
